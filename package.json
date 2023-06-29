@@ -2,6 +2,7 @@
   "name": "sass",
   "version": "1.0.0",
   "private": true,
+  "@material//image-list": "^4.0.0",
   "scripts": {
     "start": "node ./index.js",
     "client": "nodemon -e js,hbs,json,css ./index.js",
