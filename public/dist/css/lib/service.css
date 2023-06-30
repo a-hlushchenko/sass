@@ -33,6 +33,7 @@
 .section-double {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 12px;
 }
 @media all and (width < 1000px) {
   .section-double {
