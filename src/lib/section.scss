@@ -29,6 +29,7 @@ $contentSizeMap: (
 .section-double {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	gap: 12px;
 
 	@media all and (width < var.screen('tablet')) {
 		grid-template-columns: 1fr;
